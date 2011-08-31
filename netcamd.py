@@ -16,7 +16,6 @@ class CameraSource(object):
             source.append('device=%s' % device)
         elements.append(' '.join(source))
         elements.append('ffmpegcolorspace')
-        elements.append('ffmpegcolorspace')
         elements.append('ffenc_mjpeg')
         #elements.append('queue')
         elements.append('appsink name=destination emit-signals=true')
