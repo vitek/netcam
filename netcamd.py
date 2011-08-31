@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # Simple netcam server
 import BaseHTTPServer
 
